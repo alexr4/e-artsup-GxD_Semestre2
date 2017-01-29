@@ -47,11 +47,11 @@
 
 			ellipse(x, y, w, h);
 
- ## Ressources
-	Find exemples or ressources 
-		1. Official site of P5JS (p5js.org)
-		2. (hello.p5js.org)
-		2. (openProcessing.org)
-		3. (https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw)
+## Ressources :
+Find exemples or ressources 
+	1. Official site of P5JS (p5js.org)
+	2. (hello.p5js.org)
+	2. (openProcessing.org)
+	3. (https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw)
 
-	Find all ressource from the first semester : (https://github.com/alexr4/e-artsup-GxD_Semestre1);
+Find all ressource from the first semester : (https://github.com/alexr4/e-artsup-GxD_Semestre1);
