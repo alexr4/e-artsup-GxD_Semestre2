@@ -6,8 +6,8 @@
 1. Download [P5JS](http://p5js.org/download/)
 2. Create folder and add the P5JS folder
 3. Create a HTML file and import P5JS in the <header></header> using <script src="YourP5JSSource.js"></script>
-	1. Use a local file such as : <script src="../p5.min.js"></script>
-	2. Or use a hosted online version stored in CDN (Content Delivery Network). See all verson at : [https://cdnjs.com/libraries/p5.js](https://cdnjs.com/libraries/p5.js). Import using : <script src="//cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.6/p5.js"></script>
+	1. Use a local file such as : ```<script src="../p5.min.js"></script>```
+	2. Or use a hosted online version stored in CDN (Content Delivery Network). See all verson at : [https://cdnjs.com/libraries/p5.js](https://cdnjs.com/libraries/p5.js). Import using : ```<script src="//cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.6/p5.js"></script>```
 4. A simple HTML fil must look like :
 ```
 <html>
