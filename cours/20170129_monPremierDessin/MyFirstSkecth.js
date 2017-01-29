@@ -3,7 +3,7 @@ var ampY; //max amplitude
 
 function setup() {
 	createCanvas(800, 800);
-	//Use windowsWidth and windowsHeight variable to get the innerwindows size for running fullscreen program.
+	//Use windowWidth and windowHeight variable to get the innerwindows size for running fullscreen program.
 	
 	diameter = 100; //diameter of the ellipse
 	ampY = height/4; //max amplitude

@@ -4,4 +4,4 @@
 
 ## List of the courses :
 1. My first P5JS Sketch
-2. Diffuse Limited Aggregation based on [Paul Bourke article](http://paulbourke.net/fractals/dla/)
+2. Diffusion Limited Aggregation based on [Paul Bourke article](http://paulbourke.net/fractals/dla/)
