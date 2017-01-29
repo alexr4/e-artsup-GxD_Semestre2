@@ -1,4 +1,4 @@
-00. Setup P5JS :
+# Setup P5JS :
 	1. Download P5JS @http://p5js.org/download/
 	2. Create folder and add the P5JS folder
 	3. Create a HTML file and import P5JS in the <header></header> using <script src="YourP5JSSource.js"></script>
