@@ -40,7 +40,7 @@ In Java you use :
 int x = 10;
 float x = 10.5;
 char x = 'a';
-String x = "alex"
+String x = "alex";
 ```
 
 In javascript you use
