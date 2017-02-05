@@ -6,17 +6,17 @@
 DOM stands for Document Object Model. It's a cross-platform and language independant application programming interface that treats an HTML or XML as a tree structure where each node is an object representing a part of the document. [Learn more on Wikipedia](https://en.wikipedia.org/wiki/Document_Object_Model).
 
 DOM Hierarchy can be represented as : 
-*. DOCUMENT
-	*. Element : ```<html>```
-		1. Element : ```<head>```
-			1. Element : ```<meta>```
-			2. Element : ```<title>```
-			3. Element : ```<script>```
-		2. Element : ```<body>```
-			1. Element ```<h1>```
-				1. Text : "Title"
-			2. Element :```<a>```, attribute : ```href=""```
-				1. Text : "Link"
+* DOCUMENT
+	* Element : ```<html>```
+		* Element : ```<head>```
+			* Element : ```<meta>```
+			* Element : ```<title>```
+			* Element : ```<script>```
+		* Element : ```<body>```
+			* Element ```<h1>```
+				* Text : "Title"
+			* Element :```<a>```, attribute : ```href=""```
+				*. Text : "Link"
 
 
 ## Manipulating DOM with P5Js library : p5.dom.js
