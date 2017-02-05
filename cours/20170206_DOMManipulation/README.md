@@ -6,8 +6,8 @@
 DOM stands for Document Object Model. It's a cross-platform and language independant application programming interface that treats an HTML or XML as a tree structure where each node is an object representing a part of the document. [Learn more on Wikipedia](https://en.wikipedia.org/wiki/Document_Object_Model).
 
 DOM Hierarchy can be represented as : 
-1. DOCUMENT
-	1. Element : ```<html>```
+*. DOCUMENT
+	*. Element : ```<html>```
 		1. Element : ```<head>```
 			1. Element : ```<meta>```
 			2. Element : ```<title>```
