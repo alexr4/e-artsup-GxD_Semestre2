@@ -154,6 +154,5 @@ You can add and remove class to an element in order to change its classification
 * ```element.removeClass('className');``` remove the element from the class names ```className```
 
 Learn more on [P5.dom reference](http://p5js.org/reference/#/libraries/p5.dom) and on [GitHub](https://github.com/processing/p5.js/wiki/Beyond-the-canvas)
-
 Learn more on [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
