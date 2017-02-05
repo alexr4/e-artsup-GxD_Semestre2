@@ -89,7 +89,42 @@ function doSomething(){
 ```
 
 ### CSS manipulation
+You can access to an HTML element by its tag, id or its class name in order to manipulate it or change its css bu using the method ```select(tag)```. This method can take tag, id or class name as parameters.
 
+example :
+```
+var paragraph = select(p); //by using the tag 'p' we can get the first paragraph element in the page
+var elementById = select('#id'); //by using the '#id' we can get the first element with the '#id' name on the page
+var elementByClass = select('.class'); //by using the '.class' we can get the first element width '.class' name on the page
+```
+
+Then you can modify all CSS Style by using the method ```element.style('css style', value)```.
+You can find all CSS Style on various website such as [Mozilla Developper](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference); 
+
+example :
+```
+var paragraph = select(p); //by using the tag 'p' we can get the first paragraph element in the page
+paragraph.style('color', '#000');
+```
+
+You can acces to all HTML elements by their tag, id or class name using the method ```selectAll(tag)```. This method creates an array with all the HTML element which has the same tag, id or class
+
+example :
+```
+var paragraph = selectAll(p); //by using the tag 'p' we can get all paragraphs element in the page
+var elementById = selectAll('#id'); //by using the '#id' we can get all elements with the '#id' name on the page
+var elementByClass = selectAll('.class'); //by using the '.class' we can get all elements width '.class' name on the page
+```
+
+When using an array element you can change its style via a loop operation.
+example :
+```
+var paragraphs = selectAll(p);
+for(var i=0; i<paragraphs.length; i++){
+	paragraph[i].style('color', '#000');
+}
+
+```
 
 Learn more on [P5.dom reference](http://p5js.org/reference/#/libraries/p5.dom) and on [GitHub](https://github.com/processing/p5.js/wiki/Beyond-the-canvas)
 
