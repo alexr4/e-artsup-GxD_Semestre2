@@ -19,9 +19,12 @@ DOM Hierarchy can be represented as :
 				*. Text : "Link"
 
 
-## Manipulating DOM with P5Js library : p5.dom.js
+## Manipulating DOM with P5Js
+### Add the library p5.dom.js to your HTML Document
 We can manipulate any DOM element using P5Js library p5.dom.js
 p5.dom.js is avaliable in the addons foled of P5Js and we can load it by adding it into our ```<header>``` as follow :
 ```
 <script src="yourPathToP5Folder/addons/p5.dom.js"></script>
 ```
+
+### Create HTML element using P5.DOM.JS
