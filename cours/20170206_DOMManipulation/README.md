@@ -7,21 +7,21 @@ DOM stands for Document Object Model. It's a cross-platform and language indepen
 
 DOM Hierarchy can be represented as : 
 1. DOCUMENT
-	1. Element : <html></html>
-		1. Element : <head>
-			1. Element <meta>
-			2. Element : <title>
-			3. Element : <script>
-		2. Element : <body>
-			1. Element <h1>
+	1. Element : ```<html>```
+		1. Element : ```<head>```
+			1. Element : ```<meta>```
+			2. Element : ```<title>```
+			3. Element : ```<script>```
+		2. Element : ```<body>```
+			1. Element ```<h1>```
 				1. Text : "Title"
-			2. Element : <a>, attribute : href=""
+			2. Element :```<a>```, attribute : ```href=""```
 				1. Text : "Link"
 
 
 ## Manipulating DOM with P5Js library : p5.dom.js
 We can manipulate any DOM element using P5Js library p5.dom.js
-p5.dom.js is avaliable in the addons foled of P5Js and we can load it by adding it into our <header> as follow :
+p5.dom.js is avaliable in the addons foled of P5Js and we can load it by adding it into our ```<header>``` as follow :
 ```
 <script src="yourPathToP5Folder/addons/p5.dom.js"></script>
 ```
