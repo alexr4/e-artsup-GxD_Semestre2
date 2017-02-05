@@ -28,3 +28,15 @@ p5.dom.js is avaliable in the addons foled of P5Js and we can load it by adding 
 ```
 
 ### Create HTML element using P5.DOM.JS
+You can create HTML element using various p5JS method such as :
+* Paragraph using ```createP("You text");```
+* Span using ```createSpan("You text");```
+* Link using ```createA(Link, TextLink, Target);```
+* Image using ```createImage(image link);```
+* Button using ```createButton('Some Text');```
+* Slider using ```createSlider(min, max, value, step);```
+* Checkbox using ```createCheckbox(label, value);```
+* Div using ```createDiv(content);```
+* Any element using ```createElement(tag, content);``` for exemple ```createElement('h1', 'A Title');```
+
+Learn more on [P5.dom reference](http://p5js.org/reference/#/libraries/p5.dom) 
