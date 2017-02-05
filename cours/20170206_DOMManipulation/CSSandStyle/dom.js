@@ -29,7 +29,10 @@ function setup(){
 	htmlElementH1.mouseOut(changeBackgroundOut);
 
 	htmlElementP = selectAll('.paragraph-class');
-
+	for (var i = 0; i < htmlElementP.length; i++){
+		htmlElementP[i].mouseOver(selectIn);
+		htmlElementP[i].mouseOut(selectOut);
+	}
 	htmlElementButton = select('.button-class');
 	htmlElementButton.mousePressed(randomFontSize);
 }
@@ -63,4 +66,16 @@ function randomFontSize(){
 	for (var i = 0; i < htmlElementP.length; i++){
     htmlElementP[i].style('font-size', value);
   }
+}
+
+function selectIn(){
+	this.style('padding', 10);
+	this.style('background-color', 'grey');
+	this.style('color', 'black');
+}
+
+function selectOut(){
+	this.style('padding', 0);
+	this.style('background-color', 'white');
+	this.style('color', 'grey');
 }

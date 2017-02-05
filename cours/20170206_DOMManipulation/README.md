@@ -28,7 +28,7 @@ p5.dom.js is avaliable in the addons foled of P5Js and we can load it by adding 
 ```
 
 ### Create HTML element using P5.DOM.JS
-You can create HTML element using various p5JS method such as :
+You can create various HTML element using p5JS.Dom method such as :
 * Paragraph using ```createP("You text");```
 * Span using ```createSpan("You text");```
 * Link using ```createA(Link, TextLink, Target);```
@@ -39,8 +39,10 @@ You can create HTML element using various p5JS method such as :
 * Div using ```createDiv(content);```
 * Any element using ```createElement(tag, content);``` for exemple ```createElement('h1', 'A Title');```
 
+You can either create a direct element using  ```createP("You text");``` which will create a simple paragraphe or create a new variable in order to access the element you have created using  ```var paragraph = createP("You text");```
+
 ### Manipulate an element 
-You can manipulate a HTML element by using one of the following methods :
+You can manipulate a HTML element in order to create interactive experience by using one of the following methods :
 * ```element.html(content)``` changes the content of the element
 * ```element.position(x, y)``` changes the absolute position of the element
 * ```element.style("Style Name", value)``` changes the CSS style of the element
@@ -49,14 +51,42 @@ You can manipulate a HTML element by using one of the following methods :
 * ```element.attribute("attibuts", value)``` change the attribute of the element
 * ```element.size(w, h)``` changes the size of the element
 * ```element.remove()``` removes the element
+* ...
+
+Where ```element``` is your variable's name
 
 ### Create Callback
+Callback methods are usefull if you want to add behaviors to HTML element or interact with the elements on your canvas. Callback allow you to trigger action (methods) when you interact with element by attaching the action (method) to an interaction on the elements.
 
-mousePressed
-mouseOut
-mouseOver
-changed
-input
+The fisrt step is to create your behavior such as :
+```function doSomething(){
+	//do something here withe element or drawing
+}```
+
+the second step is to attach the behavior to the callback. You can attach your behavior to differents callback such as :
+* ```element.mousePressed(behavior)``` trigger behavior (method) on click on the element
+* ```element.mouseOver(behavior)``` trigger behavior (method) on mouse over on the element
+* ```element.mouseOut(behavior)``` trigger behavior (method) on mouse out on the element
+* ```element.mouseWheel(behavior)``` trigger behavior (method) on mouse scroll on the element
+* ```element.mouseReleased(behavior)``` trigger behavior (method) on mouse clicked release on the element
+* ```element.mouseClicked(behavior)``` trigger behavior (method) on mouse clicked release on the element
+* ```element.mouseMoved(behavior)``` trigger behavior (method) when the mouse moves on the element
+* ```element.changed(behavior)``` trigger behavior (method) when the element has changed
+* ```element.input(behavior)``` trigger behavior (method) on the action on the element
+* ...
+
+example :
+```
+var element;
+function setup(){
+	var element = createButton('some button title');
+	element.mousePressed(doSomething);
+}
+
+function doSomething(){
+	//do something here withe element or drawing
+}
+```
 
 ### CSS manipulation
 
