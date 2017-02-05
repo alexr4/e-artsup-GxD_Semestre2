@@ -126,6 +126,33 @@ for(var i=0; i<paragraphs.length; i++){
 
 ```
 
+If you want to trigger an action using a callback method on a array of HTML element you need to acces the element using ```this``` in order to target the element.
+
+example
+```
+var elements;
+function setup(){
+	var elements = selectAll(p);
+	for(var i=0; i<paragraphs.length; i++){
+		paragraph[i].mouseOver(doSomething);
+	}
+}
+
+function doSomething(){
+	this.style('font-size', '27pts');
+}
+```
+
+### Childs and Parents
+You can parents an element in order to move it on the page. this method can be usefull if you want to create list places inside a specific HTML element. You only can parents an element by using ```#id```. You can do it with two differents methods :
+* ```element.parent(#parent);``` the element will be parent to the HTML element with the id ```#Parent```
+* ```element.child(#parent);``` the element will have the HTML element with the id ```#Parent``` as a child
+
+### Add and remove class
+You can add and remove class to an element in order to change its classification or css style by using the methods
+* ```element.class('className');``` add the element to the class names ```className```
+* ```element.removeClass('className');``` remove the element from the class names ```className```
+
 Learn more on [P5.dom reference](http://p5js.org/reference/#/libraries/p5.dom) and on [GitHub](https://github.com/processing/p5.js/wiki/Beyond-the-canvas)
 
 Learn more on [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
