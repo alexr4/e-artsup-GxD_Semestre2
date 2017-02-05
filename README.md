@@ -58,8 +58,8 @@ ellipse(x, y, w, h);
 
 ## Ressources :
 Find exemples or ressources 
-* [Official site of P5JS](p5js.org)
-* [Learn P5JS with Lauren McLaren & Daniel Shiffman](hello.p5js.org)
-* [Find exemples using P5JS](openProcessing.org)
+* [Official site of P5JS](http://p5js.org)
+* [Learn P5JS with Lauren McLaren & Daniel Shiffman](http://hello.p5js.org)
+* [Find exemples using P5JS](http://openProcessing.org)
 * [Learn creative coding with Daniel Shiffman](https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw)
 * [Ressource from the first semester using Processing](https://github.com/alexr4/e-artsup-GxD_Semestre1)
