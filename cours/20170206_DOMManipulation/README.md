@@ -39,8 +39,6 @@ You can create HTML element using various p5JS method such as :
 * Div using ```createDiv(content);```
 * Any element using ```createElement(tag, content);``` for exemple ```createElement('h1', 'A Title');```
 
-Learn more on [P5.dom reference](http://p5js.org/reference/#/libraries/p5.dom) 
-
 ### Manipulate an element 
 You can manipulate a HTML element by using one of the following methods :
 * ```element.html(content)``` changes the content of the element
@@ -51,3 +49,19 @@ You can manipulate a HTML element by using one of the following methods :
 * ```element.attribute("attibuts", value)``` change the attribute of the element
 * ```element.size(w, h)``` changes the size of the element
 * ```element.remove()``` removes the element
+
+### Create Callback
+
+mousePressed
+mouseOut
+mouseOver
+changed
+input
+
+### CSS manipulation
+
+
+Learn more on [P5.dom reference](http://p5js.org/reference/#/libraries/p5.dom) and on [GitHub](https://github.com/processing/p5.js/wiki/Beyond-the-canvas)
+
+Learn more on [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+
