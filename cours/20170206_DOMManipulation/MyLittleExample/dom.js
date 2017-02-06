@@ -23,7 +23,7 @@ function splitParargraphIntLetters(){
 	var p = select('#mainParagraph');
 	var words = p.html();
 	var wordsArray = words.split('');
-	for(var i=0; i<wordsArray.length; i+=3){	
+	for(var i=0; i<wordsArray.length; i+=10){	
 		var letter = wordsArray[i];
 		var position = createVector(random(windowWidth), random(windowHeight));
 		var span = createP(letter);
